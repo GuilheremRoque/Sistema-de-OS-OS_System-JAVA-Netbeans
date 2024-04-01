@@ -401,6 +401,7 @@ public class TelaCadOS extends JFrame {
     private void PainelCastroOS() {
         Border painelGray = BorderFactory.createLineBorder(Color.GRAY);
         Color fundo = new Color(113, 154, 183);
+        Color fundoSecundario = new Color(89,186,116);
         Color fundoGray = new Color(160, 160, 160);
 
         JPanel jpnlTitulo = new JPanel();
@@ -412,7 +413,7 @@ public class TelaCadOS extends JFrame {
         JPanel jpnlCadOs = new JPanel();
         jpnlCadOs.setBounds(10, 70, 750, 760);
         jpnlCadOs.setBorder(painelGray);
-        jpnlCadOs.setBackground(fundo);
+        jpnlCadOs.setBackground(fundoSecundario);
         add(jpnlCadOs);
 
         JPanel jpnlCadOsTituloExecucao = new JPanel();

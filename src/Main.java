@@ -22,15 +22,14 @@ public class Main {
         //Construtor Tela Login
 //        TelaLogin tLogin = new TelaLogin();
 //        tLogin.setVisible(true);
-        
 //        TelaCadCli tCadCli = new TelaCadCli();
 //        tCadCli.setVisible(true);
-        
-//        TelaCadOS tCadOS = new TelaCadOS();
-//        tCadOS.setVisible(true);
 
-TelaAndamentoOS tAndOS = new TelaAndamentoOS();
-tAndOS.setVisible(true);
+        TelaCadOS tCadOS = new TelaCadOS();
+        tCadOS.setVisible(true);
+        
+        TelaAndamentoOS tAndOS = new TelaAndamentoOS();
+        tAndOS.setVisible(true);
     }
-    
+
 }

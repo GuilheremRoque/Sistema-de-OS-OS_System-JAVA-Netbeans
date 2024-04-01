@@ -403,7 +403,8 @@ public class TelaAndamentoOS extends JFrame {
 
     private void PainelCastroOS() {
         Border painelGray = BorderFactory.createLineBorder(Color.GRAY);
-        Color fundo = new Color(238, 173, 45);
+        Color fundo = new Color(113, 154, 183);
+        Color fundoSecundario = new Color(89,186,116);
         Color fundoGray = new Color(160, 160, 160);
 
         JPanel jpnlTitulo = new JPanel();
@@ -421,13 +422,13 @@ public class TelaAndamentoOS extends JFrame {
         JPanel jpnlCadOsTituloExecucao = new JPanel();
         jpnlCadOsTituloExecucao.setBounds(780, 70, 747, 50);
         jpnlCadOsTituloExecucao.setBorder(painelGray);
-        jpnlCadOsTituloExecucao.setBackground(fundo);
+        jpnlCadOsTituloExecucao.setBackground(fundoSecundario);
         add(jpnlCadOsTituloExecucao);
 
         JPanel jpnlCadOsExecucao = new JPanel();
         jpnlCadOsExecucao.setBounds(780, 130, 747, 700);
         jpnlCadOsExecucao.setBorder(painelGray);
-        jpnlCadOsExecucao.setBackground(fundo);
+        jpnlCadOsExecucao.setBackground(fundoSecundario);
         add(jpnlCadOsExecucao);
 
     }
