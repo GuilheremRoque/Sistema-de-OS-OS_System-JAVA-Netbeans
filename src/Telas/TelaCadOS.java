@@ -41,7 +41,6 @@ public class TelaCadOS extends JFrame {
         LabelCadastro();
         CheckBoxCadastro();
         PainelCastroOS();
-        
 
     }
 
@@ -54,61 +53,61 @@ public class TelaCadOS extends JFrame {
         add(jlblTitulo);
 
         JLabel jlblNumeroOS = new JLabel("Número");
-        jlblNumeroOS.setBounds(200, 100, 100, 50);
+        jlblNumeroOS.setBounds(170, 100, 100, 50);
         jlblNumeroOS.setFont(new Font("Serif", Font.BOLD, 20));
         jlblNumeroOS.setForeground(Color.WHITE);
         add(jlblNumeroOS);
 
         JLabel jlblDtCriacao = new JLabel("Data de Criação");
-        jlblDtCriacao.setBounds(379, 100, 140, 50);
+        jlblDtCriacao.setBounds(349, 100, 140, 50);
         jlblDtCriacao.setFont(new Font("Serif", Font.BOLD, 20));
         jlblDtCriacao.setForeground(Color.WHITE);
         add(jlblDtCriacao);
 
         JLabel jlblSolicitante = new JLabel("Solicitante");
-        jlblSolicitante.setBounds(178, 150, 140, 50);
+        jlblSolicitante.setBounds(148, 150, 140, 50);
         jlblSolicitante.setFont(new Font("Serif", Font.BOLD, 20));
         jlblSolicitante.setForeground(Color.WHITE);
         add(jlblSolicitante);
 
         JLabel jlblSetorLocalizacao = new JLabel("Setor de Localização");
-        jlblSetorLocalizacao.setBounds(90, 200, 185, 50);
+        jlblSetorLocalizacao.setBounds(60, 200, 185, 50);
         jlblSetorLocalizacao.setFont(new Font("Serif", Font.BOLD, 20));
         jlblSetorLocalizacao.setForeground(Color.WHITE);
         add(jlblSetorLocalizacao);
 
         JLabel jlblEquipamento = new JLabel("Equipamento");
-        jlblEquipamento.setBounds(158, 250, 110, 50);
+        jlblEquipamento.setBounds(128, 250, 110, 50);
         jlblEquipamento.setFont(new Font("Serif", Font.BOLD, 20));
         jlblEquipamento.setForeground(Color.WHITE);
         add(jlblEquipamento);
 
         JLabel jlblPatrimonio = new JLabel("Patrimônio");
-        jlblPatrimonio.setBounds(472, 250, 110, 50);
+        jlblPatrimonio.setBounds(440, 250, 110, 50);
         jlblPatrimonio.setFont(new Font("Serif", Font.BOLD, 20));
         jlblPatrimonio.setForeground(Color.WHITE);
         add(jlblPatrimonio);
 
         JLabel jlblBreveDesc = new JLabel("Breve Descrição");
-        jlblBreveDesc.setBounds(129, 300, 180, 50);
+        jlblBreveDesc.setBounds(99, 300, 180, 50);
         jlblBreveDesc.setFont(new Font("Serif", Font.BOLD, 20));
         jlblBreveDesc.setForeground(Color.WHITE);
         add(jlblBreveDesc);
 
         JLabel jlblPrioridade = new JLabel("Prioridade");
-        jlblPrioridade.setBounds(180, 350, 100, 50);
+        jlblPrioridade.setBounds(150, 350, 100, 50);
         jlblPrioridade.setFont(new Font("Serif", Font.BOLD, 20));
         jlblPrioridade.setForeground(Color.WHITE);
         add(jlblPrioridade);
 
         JLabel jlblStatusEquip = new JLabel("Status do Equipamento");
-        jlblStatusEquip.setBounds(75, 400, 200, 50);
+        jlblStatusEquip.setBounds(45, 400, 200, 50);
         jlblStatusEquip.setFont(new Font("Serif", Font.BOLD, 20));
         jlblStatusEquip.setForeground(Color.WHITE);
         add(jlblStatusEquip);
 
         JLabel jlblDescComple = new JLabel("Descrição Completa");
-        jlblDescComple.setBounds(99, 450, 200, 50);
+        jlblDescComple.setBounds(69, 450, 200, 50);
         jlblDescComple.setFont(new Font("Serif", Font.BOLD, 20));
         jlblDescComple.setForeground(Color.WHITE);
         add(jlblDescComple);
@@ -194,33 +193,33 @@ public class TelaCadOS extends JFrame {
         Color obrigatorio = new Color(80, 182, 218);
 
         JTextField jtxtNumeroOS = new JTextField();
-        jtxtNumeroOS.setBounds(272, 115, 80, 22);
+        jtxtNumeroOS.setBounds(242, 115, 80, 22);
         jtxtNumeroOS.setBorder(txtGray);
         add(jtxtNumeroOS);
 
         JTextField jtxtDtCriacao = new JTextField();
-        jtxtDtCriacao.setBounds(522, 115, 127, 22);
+        jtxtDtCriacao.setBounds(489, 115, 127, 22);
         jtxtDtCriacao.setBorder(txtGray);
         add(jtxtDtCriacao);
 
         JTextField jtxtPatrimonio = new JTextField();
-        jtxtPatrimonio.setBounds(570, 265, 80, 22);
+        jtxtPatrimonio.setBounds(540, 265, 80, 22);
         jtxtPatrimonio.setBorder(txtGray);
         add(jtxtPatrimonio);
 
         JTextField jtxtCodSolicitante = new JTextField();
-        jtxtCodSolicitante.setBounds(272, 165, 80, 22);
+        jtxtCodSolicitante.setBounds(242, 165, 80, 22);
         jtxtCodSolicitante.setBorder(txtGray);
         jtxtCodSolicitante.setBackground(obrigatorio);
         add(jtxtCodSolicitante);
 
         JTextField jtxtNomeSolicitante = new JTextField();
-        jtxtNomeSolicitante.setBounds(360, 165, 290, 22);
+        jtxtNomeSolicitante.setBounds(330, 165, 290, 22);
         jtxtNomeSolicitante.setBorder(txtGray);
         add(jtxtNomeSolicitante);
 
         JTextField jtxtBDesc = new JTextField();
-        jtxtBDesc.setBounds(272, 315, 378, 22);
+        jtxtBDesc.setBounds(242, 315, 378, 22);
         jtxtBDesc.setBorder(txtGray);
         jtxtBDesc.setBackground(obrigatorio);
         add(jtxtBDesc);
@@ -258,35 +257,35 @@ public class TelaCadOS extends JFrame {
     }
 
     private void ComboBoxCadastro() {
-        String[] setor = {"...","Administrativo", "Financeiro", "Compras", "Jurídico", "RH"};
+        String[] setor = {"...", "Administrativo", "Financeiro", "Compras", "Jurídico", "RH"};
         JComboBox<String> cbSetor = new JComboBox<>(setor);
-        cbSetor.setBounds(272, 215, 180, 22);
+        cbSetor.setBounds(242, 215, 180, 22);
         cbSetor.setFont(new Font("Arial", Font.BOLD, 15));
         cbSetor.setForeground(Color.BLACK);
         add(cbSetor);
 
-        String[] equipamento = {"...","Computador", "Monitor", "Mouse", "Teclado", "Webcam", "Impressora", "Outros"};
+        String[] equipamento = {"...", "Computador", "Monitor", "Mouse", "Teclado", "Webcam", "Impressora", "Outros"};
         JComboBox<String> cbEquiapmento = new JComboBox<>(equipamento);
-        cbEquiapmento.setBounds(272, 265, 180, 22);
+        cbEquiapmento.setBounds(242, 265, 180, 22);
         cbEquiapmento.setFont(new Font("Arial", Font.BOLD, 15));
         cbEquiapmento.setForeground(Color.BLACK);
         add(cbEquiapmento);
 
-        String[] prioridade = {"...","Urgente", "Alta", "Média", "Baixa"};
+        String[] prioridade = {"...", "Urgente", "Alta", "Média", "Baixa"};
         JComboBox<String> cbPrioridade = new JComboBox<>(prioridade);
-        cbPrioridade.setBounds(272, 365, 120, 24);
+        cbPrioridade.setBounds(242, 365, 120, 24);
         cbPrioridade.setFont(new Font("Arial", Font.BOLD, 15));
         cbPrioridade.setForeground(Color.BLACK);
         add(cbPrioridade);
 
-        String[] statusEquipamento = {"...","Parado", "Rodando ", "Liga/Desliga"};
+        String[] statusEquipamento = {"...", "Parado", "Rodando ", "Liga/Desliga"};
         JComboBox<String> cbStatusEquipamento = new JComboBox<>(statusEquipamento);
-        cbStatusEquipamento.setBounds(272, 415, 120, 24);
+        cbStatusEquipamento.setBounds(242, 415, 120, 24);
         cbStatusEquipamento.setFont(new Font("Arial", Font.BOLD, 15));
         cbStatusEquipamento.setForeground(Color.BLACK);
         add(cbStatusEquipamento);
 
-        String[] cComplexidade = {"...","Alta", "Baixa ", "Moderada"};
+        String[] cComplexidade = {"...", "Alta", "Baixa ", "Moderada"};
         JComboBox<String> cbComplexidade = new JComboBox<>(cComplexidade);
         cbComplexidade.setBounds(975, 615, 100, 24);
         cbComplexidade.setFont(new Font("Arial", Font.BOLD, 15));
@@ -307,7 +306,7 @@ public class TelaCadOS extends JFrame {
         jtxtDescCompleta.setWrapStyleWord(true);
 //        add(jtxtDescCompleta);
         JScrollPane jspDescCompleta = new JScrollPane(jtxtDescCompleta);//Encapsula o jtxtDescCompleta no jspDescCompleta
-        jspDescCompleta.setBounds(272, 468, 379, 100);
+        jspDescCompleta.setBounds(242, 468, 379, 100);
         getContentPane().add(jspDescCompleta);
 
         JTextArea jtxtDescPS = new JTextArea();
@@ -364,69 +363,69 @@ public class TelaCadOS extends JFrame {
     }
 
     private void ButtonCadastroOS() {
-        
-        JButton jbtnRSenha = new JButton();
-        jbtnRSenha.setBounds(445, 215, 22, 22);
-        jbtnRSenha.setFont(new Font("Arial",Font.BOLD,15));
-        add(jbtnRSenha); 
-        
-       
-        
+
         JButton jbtnNovo = new JButton("Novo");
-        jbtnNovo.setBounds(40, 800, 130, 25);
-        jbtnNovo.setFont(new Font("Arial",Font.BOLD,15));
+        jbtnNovo.setBounds(690, 680, 100, 25);
+        jbtnNovo.setFont(new Font("Arial", Font.BOLD, 15));
         add(jbtnNovo);
-        
+
         JButton jbtnSalvar = new JButton("Salvar");
-        jbtnSalvar.setBounds(180,800, 130, 25);
-        jbtnSalvar.setFont(new Font("Arial",Font.BOLD,15));
+        jbtnSalvar.setBounds(690, 710, 100, 25);
+        jbtnSalvar.setFont(new Font("Arial", Font.BOLD, 15));
         add(jbtnSalvar);
-        
+
         JButton jbtnDesfazer = new JButton("Desfazer");
-        jbtnDesfazer.setBounds(320, 800, 130, 25);
-        jbtnDesfazer.setFont(new Font("Arial",Font.BOLD,15));
+        jbtnDesfazer.setBounds(690, 740, 100, 25);
+        jbtnDesfazer.setFont(new Font("Arial", Font.BOLD, 15));
         add(jbtnDesfazer);
-        
-        JButton jbtnExcluir = new JButton("Excluir");
-        jbtnExcluir.setBounds(460, 800, 130, 25);
-        jbtnExcluir.setFont(new Font("Arial",Font.BOLD,15));
-        add(jbtnExcluir);
-        
+
+        JButton jbtnEditar = new JButton("Editar");
+        jbtnEditar.setBounds(690, 770, 100, 25);
+        jbtnEditar.setFont(new Font("Arial", Font.BOLD, 15));
+        add(jbtnEditar);
+
         JButton jbtnFechar = new JButton("Fechar");
-        jbtnFechar.setBounds(600, 800, 130, 25);
-        jbtnFechar.setFont(new Font("Arial",Font.BOLD,15));
+        jbtnFechar.setBounds(690, 800, 100, 25);
+        jbtnFechar.setFont(new Font("Arial", Font.BOLD, 15));
         add(jbtnFechar);
-    }    
-    
+    }
+
     private void PainelCastroOS() {
         Border painelGray = BorderFactory.createLineBorder(Color.GRAY);
         Color fundo = new Color(113, 154, 183);
-        Color fundoSecundario = new Color(89,186,116);
+        Color fundoTitulo = new Color(34,73,119);
+        Color fundoSecundario = new Color(89, 186, 116);
         Color fundoGray = new Color(160, 160, 160);
 
         JPanel jpnlTitulo = new JPanel();
         jpnlTitulo.setBounds(10, 5, 1516, 55);
         jpnlTitulo.setBorder(painelGray);
-        jpnlTitulo.setBackground(fundo);
+        jpnlTitulo.setBackground(fundoTitulo);
         add(jpnlTitulo);
 
         JPanel jpnlCadOs = new JPanel();
-        jpnlCadOs.setBounds(10, 70, 750, 760);
+        jpnlCadOs.setBounds(10, 70, 670, 760);
         jpnlCadOs.setBorder(painelGray);
         jpnlCadOs.setBackground(fundoSecundario);
         add(jpnlCadOs);
 
         JPanel jpnlCadOsTituloExecucao = new JPanel();
-        jpnlCadOsTituloExecucao.setBounds(780, 70, 747, 50);
+        jpnlCadOsTituloExecucao.setBounds(800, 70, 720, 50);
         jpnlCadOsTituloExecucao.setBorder(painelGray);
         jpnlCadOsTituloExecucao.setBackground(fundo);
         add(jpnlCadOsTituloExecucao);
 
         JPanel jpnlCadOsExecucao = new JPanel();
-        jpnlCadOsExecucao.setBounds(780, 130, 747, 700);
+        jpnlCadOsExecucao.setBounds(800, 130, 720, 700);
         jpnlCadOsExecucao.setBorder(painelGray);
         jpnlCadOsExecucao.setBackground(fundo);
         add(jpnlCadOsExecucao);
+
+        JPanel jpnlBotoes = new JPanel();
+        jpnlBotoes.setBounds(687, 70, 105, 760);
+        jpnlBotoes.setBorder(painelGray);
+        jpnlBotoes.setBackground(fundoTitulo);
+        add(jpnlBotoes);
 
     }
 

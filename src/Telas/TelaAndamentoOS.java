@@ -370,67 +370,77 @@ public class TelaAndamentoOS extends JFrame {
     private void ButtonCadastroOS() {
 
         JButton jbtnRSenha = new JButton();
-        jbtnRSenha.setBounds(445, 215, 22, 22);
+        jbtnRSenha.setBounds(455, 215, 22, 22);
         jbtnRSenha.setFont(new Font("Arial", Font.BOLD, 15));
         add(jbtnRSenha);
 
         JButton jbtnNovo = new JButton("Novo");
-        jbtnNovo.setBounds(1388, 670, 130, 25);
+        jbtnNovo.setBounds(690, 680, 100, 25);
         jbtnNovo.setFont(new Font("Arial", Font.BOLD, 15));
         add(jbtnNovo);
 
         JButton jbtnSalvar = new JButton("Salvar");
-        jbtnSalvar.setBounds(1388, 700, 130, 25);
+        jbtnSalvar.setBounds(690, 710, 100, 25);
         jbtnSalvar.setFont(new Font("Arial", Font.BOLD, 15));
         add(jbtnSalvar);
 
         JButton jbtnDesfazer = new JButton("Desfazer");
-        jbtnDesfazer.setBounds(1388, 730, 130, 25);
+        jbtnDesfazer.setBounds(690, 740, 100, 25);
         jbtnDesfazer.setFont(new Font("Arial", Font.BOLD, 15));
         add(jbtnDesfazer);
 
-        JButton jbtnExcluir = new JButton("Excluir");
-        jbtnExcluir.setBounds(1388, 760, 130, 25);
-        jbtnExcluir.setFont(new Font("Arial", Font.BOLD, 15));
-        add(jbtnExcluir);
+        JButton jbtnEditar = new JButton("Editar");
+        jbtnEditar.setBounds(690, 770, 100, 25);
+        jbtnEditar.setFont(new Font("Arial", Font.BOLD, 15));
+        add(jbtnEditar);
 
         JButton jbtnFechar = new JButton("Fechar");
-        jbtnFechar.setBounds(1388, 790, 130, 25);
+        jbtnFechar.setBounds(690, 800, 100, 25);
         jbtnFechar.setFont(new Font("Arial", Font.BOLD, 15));
-        add(jbtnFechar);
+            add(jbtnFechar);
 
     }
 
     private void PainelCastroOS() {
         Border painelGray = BorderFactory.createLineBorder(Color.GRAY);
         Color fundo = new Color(113, 154, 183);
-        Color fundoSecundario = new Color(89,186,116);
+        Color fundoTitulo = new Color(34,73,119);
+        Color fundoSecundario = new Color(89, 186, 116);
         Color fundoGray = new Color(160, 160, 160);
 
         JPanel jpnlTitulo = new JPanel();
         jpnlTitulo.setBounds(10, 5, 1516, 55);
         jpnlTitulo.setBorder(painelGray);
-        jpnlTitulo.setBackground(fundo);
+        jpnlTitulo.setBackground(fundoTitulo);
         add(jpnlTitulo);
 
         JPanel jpnlCadOs = new JPanel();
-        jpnlCadOs.setBounds(10, 70, 750, 760);
+        jpnlCadOs.setBounds(10, 70, 670, 760);
         jpnlCadOs.setBorder(painelGray);
         jpnlCadOs.setBackground(fundo);
         add(jpnlCadOs);
 
-        JPanel jpnlCadOsTituloExecucao = new JPanel();
-        jpnlCadOsTituloExecucao.setBounds(780, 70, 747, 50);
-        jpnlCadOsTituloExecucao.setBorder(painelGray);
-        jpnlCadOsTituloExecucao.setBackground(fundoSecundario);
-        add(jpnlCadOsTituloExecucao);
+        JPanel jpnlOsTituloExecucao = new JPanel();
+        jpnlOsTituloExecucao.setBounds(800, 70, 720, 50);
+        jpnlOsTituloExecucao.setBorder(painelGray);
+        jpnlOsTituloExecucao.setBackground(fundoSecundario);
+        add(jpnlOsTituloExecucao);
 
-        JPanel jpnlCadOsExecucao = new JPanel();
-        jpnlCadOsExecucao.setBounds(780, 130, 747, 700);
-        jpnlCadOsExecucao.setBorder(painelGray);
-        jpnlCadOsExecucao.setBackground(fundoSecundario);
-        add(jpnlCadOsExecucao);
+        JPanel jpnlsExecucao = new JPanel();
+        jpnlsExecucao.setBounds(800, 130, 720, 700);
+        jpnlsExecucao.setBorder(painelGray);
+        jpnlsExecucao.setBackground(fundoSecundario);
+        add(jpnlsExecucao);
+
+        JPanel jpnlBotoes = new JPanel();
+        jpnlBotoes.setBounds(687, 70, 105, 760);
+        jpnlBotoes.setBorder(painelGray);
+        jpnlBotoes.setBackground(fundoTitulo);
+        add(jpnlBotoes);
 
     }
 
-}
+
+    }
+
+

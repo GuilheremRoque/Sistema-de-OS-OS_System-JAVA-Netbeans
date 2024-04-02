@@ -27,14 +27,14 @@ public class Main {
 //        TelaCadUser tCadCli = new TelaCadUser();
 //        tCadCli.setVisible(true);
 
-//        TelaCadOS tCadOS = new TelaCadOS();
-//        tCadOS.setVisible(true);
+        TelaCadOS tCadOS = new TelaCadOS();
+        tCadOS.setVisible(true);
 
-//        TelaAndamentoOS tAndOS = new TelaAndamentoOS();
-//        tAndOS.setVisible(true);
+        TelaAndamentoOS tAndOS = new TelaAndamentoOS();
+        tAndOS.setVisible(true);
 
-        TelaCadPF tCadPF = new TelaCadPF();
-        tCadPF.setVisible(true);
+//        TelaCadPF tCadPF = new TelaCadPF();
+//        tCadPF.setVisible(true);
     }
     
 }
