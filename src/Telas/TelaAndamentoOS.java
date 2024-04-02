@@ -405,7 +405,7 @@ public class TelaAndamentoOS extends JFrame {
         Border painelGray = BorderFactory.createLineBorder(Color.GRAY);
         Color fundo = new Color(113, 154, 183);
         Color fundoTitulo = new Color(34,73,119);
-        Color fundoSecundario = new Color(89, 186, 116);
+        Color fundoSecundario = new Color(53,92,138);
         Color fundoGray = new Color(160, 160, 160);
 
         JPanel jpnlTitulo = new JPanel();
