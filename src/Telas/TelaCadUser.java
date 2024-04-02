@@ -20,13 +20,13 @@ import javax.swing.JTextField;
 import javax.swing.SwingConstants;
 import javax.swing.border.Border;
 
-public class TelaCadCli extends JFrame {
+public class TelaCadUser extends JFrame {
 
-    public TelaCadCli() {
+    public TelaCadUser() {
         super();
 //   sas     setExtendedState(JFrame.MAXIMIZED_BOTH);//Abrir na tela toda
         setTitle("OS_System");
-        setSize(1555, 878);
+        setSize(879, 878);
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setResizable(false);
         setLocationRelativeTo(null);
@@ -45,6 +45,8 @@ public class TelaCadCli extends JFrame {
     }
 
     private void BotoesCadastro() {
+        
+        
 
     }
 
@@ -115,7 +117,7 @@ public class TelaCadCli extends JFrame {
     private void LabelCadastro() {
 
         JLabel jlblTittulo = new JLabel("CADASTRO DE USUÁRIO");
-        jlblTittulo.setBounds(550, 7, 500, 50);
+        jlblTittulo.setBounds(190, 7, 500, 50);
         jlblTittulo.setFont(new Font("Serif", Font.BOLD, 40));
         jlblTittulo.setForeground(Color.WHITE);
         add(jlblTittulo);
@@ -185,27 +187,27 @@ public class TelaCadCli extends JFrame {
        
         
         JButton jbtnNovo = new JButton("Novo");
-        jbtnNovo.setBounds(1388, 670, 130, 25);
+        jbtnNovo.setBounds(50, 800, 130, 25);
         jbtnNovo.setFont(new Font("Arial",Font.BOLD,15));
         add(jbtnNovo);
         
         JButton jbtnSalvar = new JButton("Salvar");
-        jbtnSalvar.setBounds(1388, 700, 130, 25);
+        jbtnSalvar.setBounds(200,800, 130, 25);
         jbtnSalvar.setFont(new Font("Arial",Font.BOLD,15));
         add(jbtnSalvar);
         
         JButton jbtnDesfazer = new JButton("Desfazer");
-        jbtnDesfazer.setBounds(1388, 730, 130, 25);
+        jbtnDesfazer.setBounds(350, 800, 130, 25);
         jbtnDesfazer.setFont(new Font("Arial",Font.BOLD,15));
         add(jbtnDesfazer);
         
-        JButton jbtnExcluir = new JButton("Excluir");
-        jbtnExcluir.setBounds(1388, 760, 130, 25);
-        jbtnExcluir.setFont(new Font("Arial",Font.BOLD,15));
-        add(jbtnExcluir);
+        JButton jbtnEditar = new JButton("Editar");
+        jbtnEditar.setBounds(500, 800, 130, 25);
+        jbtnEditar.setFont(new Font("Arial",Font.BOLD,15));
+        add(jbtnEditar);
         
         JButton jbtnFechar = new JButton("Fechar");
-        jbtnFechar.setBounds(1388, 790, 130, 25);
+        jbtnFechar.setBounds(650, 800, 130, 25);
         jbtnFechar.setFont(new Font("Arial",Font.BOLD,15));
         add(jbtnFechar);
     }    
@@ -213,14 +215,14 @@ public class TelaCadCli extends JFrame {
         String[] opcoeSetor = {"Administrativo", "Financeiro", "Compras", "Jurídico", "RH"};
         JComboBox<String> cbSetor = new JComboBox<>(opcoeSetor);
         cbSetor.setBounds(284, 266, 152, 25);
-        cbSetor.setFont(new Font("Serif", Font.BOLD, 15));
+        cbSetor.setFont(new Font("Arial", Font.BOLD, 15));
         cbSetor.setForeground(Color.BLACK);
         add(cbSetor);
 
         String[] opcoesEstabelecimento = {"Duetto's Comércio Importação E Exportação", "Globaco Importação e Exportação", "DP Empresarial Indaial", "Cooper Centro Indaial", "Armazém do Fifo - Data Curta"};
         JComboBox<String> cbEstabelecimento = new JComboBox<>(opcoesEstabelecimento);
         cbEstabelecimento.setBounds(284, 366, 447, 25);
-        cbEstabelecimento.setFont(new Font("Serif", Font.BOLD, 15));
+        cbEstabelecimento.setFont(new Font("Arial", Font.BOLD, 15));
         cbEstabelecimento.setForeground(Color.BLACK);
         add(cbEstabelecimento);
     }
@@ -231,13 +233,13 @@ public class TelaCadCli extends JFrame {
         Color fundoGray = new Color(160, 160, 160);
 
         JPanel jpnlTitulo = new JPanel();
-        jpnlTitulo.setBounds(10, 5, 1516, 55);
+        jpnlTitulo.setBounds(10, 5, 841 , 55);
         jpnlTitulo.setBorder(painelGray);
         jpnlTitulo.setBackground(fundo);
         add(jpnlTitulo);
 
         JPanel jpnlTela = new JPanel();
-        jpnlTela.setBounds(10, 70, 1516, 760);
+        jpnlTela.setBounds(10, 70, 841, 760);
         jpnlTela.setBorder(painelGray);
         jpnlTela.setBackground(fundo);
         add(jpnlTela);

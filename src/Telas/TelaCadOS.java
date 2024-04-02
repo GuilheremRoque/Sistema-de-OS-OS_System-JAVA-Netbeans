@@ -261,35 +261,35 @@ public class TelaCadOS extends JFrame {
         String[] setor = {"...","Administrativo", "Financeiro", "Compras", "Jurídico", "RH"};
         JComboBox<String> cbSetor = new JComboBox<>(setor);
         cbSetor.setBounds(272, 215, 180, 22);
-        cbSetor.setFont(new Font("Serif", Font.BOLD, 15));
+        cbSetor.setFont(new Font("Arial", Font.BOLD, 15));
         cbSetor.setForeground(Color.BLACK);
         add(cbSetor);
 
         String[] equipamento = {"...","Computador", "Monitor", "Mouse", "Teclado", "Webcam", "Impressora", "Outros"};
         JComboBox<String> cbEquiapmento = new JComboBox<>(equipamento);
         cbEquiapmento.setBounds(272, 265, 180, 22);
-        cbEquiapmento.setFont(new Font("Serif", Font.BOLD, 15));
+        cbEquiapmento.setFont(new Font("Arial", Font.BOLD, 15));
         cbEquiapmento.setForeground(Color.BLACK);
         add(cbEquiapmento);
 
         String[] prioridade = {"...","Urgente", "Alta", "Média", "Baixa"};
         JComboBox<String> cbPrioridade = new JComboBox<>(prioridade);
         cbPrioridade.setBounds(272, 365, 120, 24);
-        cbPrioridade.setFont(new Font("Serif", Font.BOLD, 15));
+        cbPrioridade.setFont(new Font("Arial", Font.BOLD, 15));
         cbPrioridade.setForeground(Color.BLACK);
         add(cbPrioridade);
 
         String[] statusEquipamento = {"...","Parado", "Rodando ", "Liga/Desliga"};
         JComboBox<String> cbStatusEquipamento = new JComboBox<>(statusEquipamento);
         cbStatusEquipamento.setBounds(272, 415, 120, 24);
-        cbStatusEquipamento.setFont(new Font("Serif", Font.BOLD, 15));
+        cbStatusEquipamento.setFont(new Font("Arial", Font.BOLD, 15));
         cbStatusEquipamento.setForeground(Color.BLACK);
         add(cbStatusEquipamento);
 
         String[] cComplexidade = {"...","Alta", "Baixa ", "Moderada"};
         JComboBox<String> cbComplexidade = new JComboBox<>(cComplexidade);
         cbComplexidade.setBounds(975, 615, 100, 24);
-        cbComplexidade.setFont(new Font("Serif", Font.BOLD, 15));
+        cbComplexidade.setFont(new Font("Arial", Font.BOLD, 15));
         cbComplexidade.setForeground(Color.BLACK);
         add(cbComplexidade);
     }

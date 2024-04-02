@@ -1,7 +1,8 @@
 
 import Telas.TelaAndamentoOS;
-import Telas.TelaCadCli;
+import Telas.TelaCadUser;
 import Telas.TelaCadOS;
+import Telas.TelaCadPF;
 import Telas.TelaLogin;
 
 /*
@@ -22,14 +23,18 @@ public class Main {
         //Construtor Tela Login
 //        TelaLogin tLogin = new TelaLogin();
 //        tLogin.setVisible(true);
-//        TelaCadCli tCadCli = new TelaCadCli();
+
+//        TelaCadUser tCadCli = new TelaCadUser();
 //        tCadCli.setVisible(true);
 
-        TelaCadOS tCadOS = new TelaCadOS();
-        tCadOS.setVisible(true);
-        
-        TelaAndamentoOS tAndOS = new TelaAndamentoOS();
-        tAndOS.setVisible(true);
-    }
+//        TelaCadOS tCadOS = new TelaCadOS();
+//        tCadOS.setVisible(true);
 
+//        TelaAndamentoOS tAndOS = new TelaAndamentoOS();
+//        tAndOS.setVisible(true);
+
+        TelaCadPF tCadPF = new TelaCadPF();
+        tCadPF.setVisible(true);
+    }
+    
 }
